@@ -1,7 +1,7 @@
 class Solution {
     public static ArrayList<Integer> commonElements(int a[], int b[]) {
         // Your code here
-         ArrayList<Integer> list = new ArrayList<>();
+        ArrayList<Integer> list = new ArrayList<>();
         Arrays.sort(a);
         Arrays.sort(b);
        int i = 0;
